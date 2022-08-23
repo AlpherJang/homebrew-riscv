@@ -25,7 +25,8 @@ end
 class RiscvGnuToolchain < Formula
   desc "RISC-V Compiler GNU Toolchain using newlib"
   homepage "http://riscv.org"
-  url "https://github.com/riscv/riscv-gnu-toolchain.git", :using => NoRecursiveGitDownloadStrategy
+  #url "https://github.com/riscv/riscv-gnu-toolchain.git", :using => NoRecursiveGitDownloadStrategy
+  url "https://github.com/AlpherJang/homebrew-riscv.git", :using => NoRecursiveGitDownloadStrategy
   version "main"
 
   bottle do
